@@ -17,7 +17,7 @@ I will perform the same experiment by creating and using a temporarily Digital O
 *   **Execute the experiment, which measures response times of these three servers.**
 
 Test results can be found here: 
-[https://docs.google.com/spreadsheets/d/1ac-mX86fk20l-HJUBVq_NCuog_QiaE6XUaNrICiyJqw/edit#gid=0](https://docs.google.com/spreadsheets/d/1ac-mX86fk20l-HJUBVq_NCuog_QiaE6XUaNrICiyJqw/edit#gid=0)
+[https://docs.google.com/spreadsheets/d/1ac-mX86fk20l-HJUBVq_NCuog_QiaE6XUaNrICiyJqw/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1ac-mX86fk20l-HJUBVq_NCuog_QiaE6XUaNrICiyJqw/edit?usp=sharing)
 
 See also attached pictures in the "Server Ping Results"-folder for the raw experiment data/result documentation. 
 
