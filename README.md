@@ -125,6 +125,7 @@ See Peter Sestoft "Microbenchmarks in Java and C#"[https://www.itu.dk/people/ses
 
 
 **Experiments can be re-created… But never truly be perfect or controlled.** 
+
 Through my experiments, I have measured how long it takes for a server to respond to a request and produce the result in milliseconds. I've done this by running the experiment on both my own desktop-machine, which is equipped with the following hardware, located in my apartment on Nørrebro, Copenhagen : 
 
 
@@ -147,7 +148,6 @@ I also executed the same experiment through a basic Digitalocean Droplet in San 
 The linked article talks about "_... biological experiments, such as measuring bacterial growth, are influenced by natural variation and many unknown circumstances_" compared to software experiments, because we (the user) can control all the aspects of the experiment since we can build/select the hardware and run the experiment with all the conditions and variables set to what we want. \
  
 At least, that's the theory. 
-
 
 In practice however, it's rare that we truly controle all the conditions of an experiment. Take my first experiment as an example in my apartment in Nørrebro. Sure the hardware and software can be replicated, but what about the internet connection? When I ran the internet speed test, who is to say that the result couldn't change the next time I run test, simply because I live in a apartment complex with 10+ apartments that all share the same connection and maybe 50% of the user decided to use the internet? Time of day plays a huge part of the experiment and one that I did not think about until I started writing this report. This also applies to the experiment conducted from the San Francisco server, because while I might be conducting the experiments at 11:00pm danish time, SF is 9 hours behind, so that would mean the server is conducting the test at 2:00am local time in SF.
 
