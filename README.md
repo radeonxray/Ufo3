@@ -58,18 +58,13 @@ Diving further into the results:
 
 By using [https://www.iplocation.net/](https://www.iplocation.net/) I learned where the servers are approximately located in the world :
 
-
-
 *   128.199.144.199 - Singapore
 *   167.99.51.33 - New Jersey, America
 *   46.101.253.149 - Frankfurt, Germany
 
- \
 This led me to further investigate how much distance my ping had to cover in order to get a response, using [https://www.distancefromto.net/](https://www.distancefromto.net/) to get an approximate distance.
 
 Approximate (Air)Distance from Copenhagen to the servers:
-
-
 
 *   Singapore: 9972km 
 *   Frankfurt, Germany: 671km
@@ -78,15 +73,11 @@ Approximate (Air)Distance from Copenhagen to the servers:
  
 The approximate (air)distance between the servers and the San Francisco server is:
 
-
-
 *   Singapore: 13597km 
 *   Frankfurt, Germany: 9143km
 *   New Jersey, America: 4115km
 
 Comparing the results with the approximate locations of the servers and the (air) distance between my test machine in Copenhagen and the servers, it made sense that:
-
-
 
 *   The server placed in Singapore would provide the slowest average response
 *   The server in New Jersey, America gave the second  fastest average response
@@ -98,8 +89,6 @@ Comparing the results with the approximate locations of the servers and the (air
 **The San Francisco results**
 
 I used the following command to ping 4 times and set the packet to 32 bytes 
-
-
 
 *   ping -s 24 -c 4 [ip]
     *   the -s 24 sets the size of the packet, but Ubuntu (?) adds 8 additional bytes when sending, so setting it to 32 would result in 40 being sent 
@@ -132,10 +121,10 @@ Copenhagen to Frankfurt: about 671km at about 15ms in average response.
     *   Despite the distance between SF and Singapore being close to 20x times longer than from Copenhagen to Frankfurt, the average response time in ms is only close to 12x from Cph to Frankfurt, once again pointing towards some slow internet connections between regions.
 
 **Discuss what you are measuring, how you are measuring, and what could influence your results.
-See Peter Sestoft "Microbenchmarks in Java and C#"[https://www.itu.dk/people/sestoft/papers/benchmarking.pdf](https://www.itu.dk/people/sestoft/papers/benchmarking.pdf) for inspiration 
+See Peter Sestoft "Microbenchmarks in Java and C#"[https://www.itu.dk/people/sestoft/papers/benchmarking.pdf](https://www.itu.dk/people/sestoft/papers/benchmarking.pdf) for inspiration**
 
 
-**Experiments can be re-created… But never truly be perfect or controlled.** \
+**Experiments can be re-created… But never truly be perfect or controlled.** 
 Through my experiments, I have measured how long it takes for a server to respond to a request and produce the result in milliseconds. I've done this by running the experiment on both my own desktop-machine, which is equipped with the following hardware, located in my apartment on Nørrebro, Copenhagen : 
 
 
